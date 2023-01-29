@@ -1,8 +1,9 @@
 # Lockpick UI Minigame
 
-![image](https://user-images.githubusercontent.com/60974759/161067952-d0acf8ef-ab1e-4540-bf83-b96268196b9c.png)
+![image](https://user-images.githubusercontent.com/87246847/215305022-0b3661fa-a5b6-4cf6-b3f4-939948868105.png)
 
-An easy lockpick export for FiveM.
+
+An easy lockpick export for Redm or fivem.
 I know this was in a lot of leaked resource and has been made similarly.
 But this one I edited it myself from the codepen mentioned below.
 Credits to [antoxa-kms](https://codepen.io/antoxa-kms/).
