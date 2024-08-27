@@ -292,9 +292,9 @@ function finish(success) {
   $('#wrap').hide();
   $('#text').hide();
   if (success) {
-    $.post('https://lockpick/succeed', JSON.stringify({}));
+    $.post(`https://${GetParentResourceName()}/succeed`, JSON.stringify({}));
   } else {
-    $.post('https://lockpick/failed', JSON.stringify({}));
+    $.post(`https://${GetParentResourceName()}/failed`, JSON.stringify({}));
   }
 }
 
@@ -304,6 +304,6 @@ function keyUpHandler(e) {
   if (e.code == 'Escape') {
     $('#wrap').hide();
     $('#text').hide();
-    $.post('https://lockpick/close', JSON.stringify({}));
+    $.post(`https://${GetParentResourceName()}/close`, JSON.stringify({}));
   }
 }
